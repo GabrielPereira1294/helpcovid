@@ -1,0 +1,288 @@
+:root {
+    --color01: #01d3fd;
+    --color02: #05aafd;
+    --color03: #f4f9fd;
+}
+
+body {
+    background-color: var(--color03);
+}
+
+.header {
+    background: rgb(1,211,253);
+    background: -moz-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01d3fd",endColorstr="#05aafd",GradientType=1);
+    padding: 30px;
+    text-align: center;
+}
+
+.result{
+    background: -moz-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01d3fd",endColorstr="#05aafd",GradientType=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.result-danger{
+    background: -moz-linear-gradient(0deg, rgb(253, 1, 1) 0%, rgb(218, 0, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(253, 1, 1) 0%, rgb(218, 0, 0) 100%);
+    background: linear-gradient(0deg, rgb(253, 1, 1) 0%, rgb(218, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01d3fd",endColorstr="#05aafd",GradientType=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.result-danger .header{
+    background: -moz-linear-gradient(0deg, rgb(221, 0, 0) 0%, rgb(255, 2, 2) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(221, 0, 0) 0%, rgb(255, 2, 2) 100%);
+    background: linear-gradient(0deg, rgb(221, 0, 0) 0%, rgb(255, 2, 2) 100%);
+
+}
+
+.header h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.header h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form-covid {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px #aaadb1;
+}
+
+.card-covid {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px #aaadb1;
+}
+
+.form-covid h1 {
+    font-size: 20px;
+    color: var(--color02);
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-covid input {
+    border: 0;
+    background-color: var(--color03);
+    color: #131313;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgb(128, 128, 128);
+}
+.form-covid input[type=submit] {
+    color: white;
+}
+.quest-covid {
+    text-align: center;
+}
+
+.quest-covid h1 {
+    font-size: 16px;
+    color: var(--color01);
+}
+
+.quest-covid p {
+    font-size: 32px;
+    color: var(--color02);
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.form-covid select {
+    border: 0;
+    background-color: var(--color03);
+    color: #131313;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: var(--color02);
+}
+
+.form-covid input::placeholder {
+    color: var(--color02);
+}
+
+.form-covid a, .form-covid p {
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+.margin-top {
+    margin-top: -25px;
+}
+
+.btn-blue {
+    background: rgb(1,211,253);
+    background: -moz-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    background: linear-gradient(0deg, rgba(1,211,253,1) 0%, rgba(5,170,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01d3fd",endColorstr="#05aafd",GradientType=1);
+}
+
+.header-top .btn {
+    position: absolute;
+    left: 7px;
+    width: 50px;
+    height: 45px;
+    padding: 5px;
+    top: 7px;
+    box-shadow: none;
+}
+
+.header {
+    color: transparent;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #aaadb1;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+.btn-blue:hover {
+    color: white;
+}
+
+.margin-bottom {
+    margin-bottom: -75px;
+}
+
+.footer-covid {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+
+.btn-white {
+    color: var(--color02) !important;
+    background-color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.fa-facebook-f {
+    color: rgb(52, 123, 231);
+}
+
+.fa-google {
+    color: rgb(212, 53, 53);
+}
+
+.img-covid {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.card-perfil h1 {
+    font-size: 20px;
+    color: var(--color02);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.fa-bell {
+    color: rgb(56, 56, 56);
+}
+
+.card-perfil h2 {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 2px;
+}
+
+.header-intern {
+    padding: 10px;
+}
+
+.dados-dia h1 {
+    font-size: 50px;
+    color: var(--color02);
+    font-weight: 800;
+}
+
+.dados-dia h1 span {
+    font-size: 16px;
+    color: var(--color01);
+}
+
+.dados-dia i {
+    display: inline;
+}
+
+.map-covid {
+    height: 220px;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.header-top {
+    padding: 15px;
+}
+
+.header-top h1 {
+    font-size: 20px;
+}
+
+.result .header-top, .result .header {
+    background: none;
+    background-color: transparent !important;
+}
+
+.result-info i {
+    font-size: 100px;
+    color: var(--color01);
+}
+
+.result-info h4 {
+    font-size: 50px;
+    color: var(--color01);
+    line-height: 54px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+}
+
+.result-info {
+    padding: 20px;
+}
+
+.result-info p {
+    color: white;
+    margin-bottom: -15px;
+    margin-top: 40px;
+}
